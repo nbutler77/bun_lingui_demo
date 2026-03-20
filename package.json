@@ -1,0 +1,26 @@
+{
+  "name": "umbrella_interface",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --bun src/index.js",
+    "start": "NODE_ENV=production bun run src/index.js",
+    "extract": "lingui extract --clean",
+    "compile": "lingui compile"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@lingui/react": "^5.9.3",
+    "@mui/icons-material": "^7.3.9",
+    "@mui/material": "^7.3.9",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router": "^7.13.1"
+  },
+  "devDependencies": {
+    "@lingui/cli": "^5.9.3",
+    "@lingui/core": "^5.9.3",
+    "bun-plugin-lingui-macro": "^1.1.2",
+    "typescript": "^5.9.3"
+  }
+}
